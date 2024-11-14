@@ -8,16 +8,17 @@
     android:layout_height="match_parent"
     tools:context=".Signin"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@drawable/backgroound">
 
     <com.google.android.material.textview.MaterialTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:text="Login"
+        android:textColor="@color/white"
         android:fontFamily="@font/montserrat"
         android:textAlignment="center"
-        android:textColor="#353232"
         android:textStyle="bold"
         android:textSize="40sp"/>
 
@@ -35,7 +36,7 @@
             android:layout_marginBottom="5dp"
             android:background="@drawable/edge"
             android:hint="Your Email"
-            android:textColor="#000"
+            android:textColor="@color/white"
             android:textSize="16sp"
             android:id="@+id/email"
             android:inputType="textEmailAddress"/>
@@ -47,7 +48,7 @@
             android:layout_marginBottom="5dp"
             android:background="@drawable/edge"
             android:hint="Your Password"
-            android:textColor="#000"
+            android:textColor="@color/white"
             android:textSize="16sp"
             android:id="@+id/password"
             android:inputType="textPassword"/>
@@ -80,6 +81,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Login"
+                android:background="@drawable/edge2"
                 android:id="@+id/login"
                 android:textSize="16sp"/>
 
@@ -88,7 +90,8 @@
                 android:layout_height="wrap_content"
                 android:text="Dont have an account: Sign-UP"
                 android:id="@+id/linktiregister"
-                android:textSize="16sp"/>
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
 
 
 

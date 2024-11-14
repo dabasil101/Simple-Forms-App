@@ -37,7 +37,7 @@ class Signup : AppCompatActivity() {
             insets
         }
     }
-    
+
 
     private fun validateInputs(): Boolean {
         val password = findViewById<TextInputEditText>(R.id.password)
@@ -54,7 +54,6 @@ class Signup : AppCompatActivity() {
         val surname = findViewById<TextInputEditText>(R.id.surname).text.toString()
         val others = findViewById<TextInputEditText>(R.id.others).text.toString()
         val email = findViewById<TextInputEditText>(R.id.email).text.toString()
-        val phone = findViewById<TextInputEditText>(R.id.phone).text.toString()
         val password = findViewById<TextInputEditText>(R.id.password).text.toString()
 
         val api = com.example.forms.constant.Constants.BASEURL + "user_signup"
@@ -64,7 +63,6 @@ class Signup : AppCompatActivity() {
             put("surname", surname)
             put("others", others)
             put("email", email)
-            put("phone", phone)
             put("password", password)
         }
 

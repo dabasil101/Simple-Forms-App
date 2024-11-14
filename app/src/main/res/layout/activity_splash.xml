@@ -9,7 +9,7 @@
     tools:context=".Splash"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#1D0932">
+    android:background="@drawable/backgroound">
 
     <ProgressBar
         android:layout_width="match_parent"
